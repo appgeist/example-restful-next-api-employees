@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+*.log
+.next
+/employees.db
+/static/*
+!/static/dev
