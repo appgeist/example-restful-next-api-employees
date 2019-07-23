@@ -28,10 +28,10 @@
   resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.7.tgz#8cd6eb940a55b8cc87d42f72dbdd7a515733b24d"
   integrity sha512-pq8lRGlJSaRGjFNkD9vPXDNM8g7AVefI5/n6Wro72xs7o3x4uPw6s7rjYGEohq6SzsmArsM1YSmI/H5nBD314A==
 
-"@appgeist/restful-next-api@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.1.7.tgz#33205e6386a00e68e1251f12aacaf4b17540c6c8"
-  integrity sha512-qyXejbzv/aIo2yI3bZvWxYiWdWrZro+lESJ/2+bjAi9Ccy7RtTupbd1V1DR2Y8fem7qqqXHmfRAUvFAu7XpMPA==
+"@appgeist/restful-next-api@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.2.0.tgz#dbb7b2d1ebd20b7cbcc9ab594c74a35c9f4dc9dd"
+  integrity sha512-jnlNXNgLWrH6yrVVb9F7ZgDt5L2CR7RHrO67e9GtcBVEQOsBHDVWJANxpRSJllj03GPPWwgdcP7ctUvZghjW6g==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
