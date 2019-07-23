@@ -2,36 +2,36 @@
 # yarn lockfile v1
 
 
-"@appgeist/eslint-config-react@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@appgeist/eslint-config-react/-/eslint-config-react-1.0.4.tgz#f5c4da1025d994e6b9c8dbea4c931bb1c504794d"
-  integrity sha512-m+E/TAdEEZYhIWX5qc43l+mCp551K0LX+1P7lv8D7rpyz4+LX+SEy7xRNb+DE3vjZTRrEk9RTFMRFj+O0v4FvA==
+"@appgeist/eslint-config-react@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@appgeist/eslint-config-react/-/eslint-config-react-1.0.5.tgz#70fa7101ac9c8cca20bb534966b6965297050330"
+  integrity sha512-5fFRpywOXdb9wE/9WAyLwShXdx4pUXZJMTuZcTmJzZgzBTx2cU4sRe8W8wpuy8TZq6W/Y+9nSloR5j3WQWlKRw==
   dependencies:
     babel-eslint "^10.0.2"
     eslint "^4.19.1"
     eslint-config-airbnb "^17.1.1"
     eslint-config-prettier "^6.0.0"
     eslint-import-resolver-babel-plugin-root-import "^1.1.1"
-    eslint-plugin-import "^2.18.0"
+    eslint-plugin-import "^2.18.2"
     eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-prettier "^3.1.0"
-    eslint-plugin-react "^7.14.2"
+    eslint-plugin-react "^7.14.3"
     prettier "^1.18.2"
 
-"@appgeist/exec@^1.0.7":
+"@appgeist/exec@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@appgeist/exec/-/exec-1.0.8.tgz#158e057316dfd6c30ffd08051f27cd2c601308cf"
+  integrity sha512-BfKGCqNZhCvyl457OKe1Ek1O4bq5YjlenHS0m+BIbkn5qDfb01ZSto+uZXQh1efKSkCEaW/8tpk6XWriBD4DfQ==
+
+"@appgeist/file-exists@^1.0.7":
   version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@appgeist/exec/-/exec-1.0.7.tgz#da26cb38e9ef252035c44c11c7dafe03c17c7148"
-  integrity sha512-ql4+yJaIIYbzXIV8mKhiWnM9wZ+tSXMRTKTRqkuWTIXwGDe7Z1f2cm3Hr/Sq3G8TrSF4UxlYodsmbxeOS+KROA==
+  resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.7.tgz#8cd6eb940a55b8cc87d42f72dbdd7a515733b24d"
+  integrity sha512-pq8lRGlJSaRGjFNkD9vPXDNM8g7AVefI5/n6Wro72xs7o3x4uPw6s7rjYGEohq6SzsmArsM1YSmI/H5nBD314A==
 
-"@appgeist/file-exists@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.6.tgz#57b61057d215b515012c6c48892a84ba182ad321"
-  integrity sha512-H1ANU/6efq+m2QCTaiN/JAQeFycL/Y3RptiCJNmjUYR1Ly63jq4/heNWoEJH09q9QTjfKtdkAoY6OQoYdeggfA==
-
-"@appgeist/restful-next-api@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.1.6.tgz#45b3bbd382433ce1e2a91bbe0d914538e06e6a11"
-  integrity sha512-tN/XdaJnbYqq1uCgspYzu42CGvSx3orkwR/jcFe1lcl2bbLOmC+0y2pd5mqL6enTAxMZzF51ofVp9ZNYNIMpow==
+"@appgeist/restful-next-api@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.1.7.tgz#33205e6386a00e68e1251f12aacaf4b17540c6c8"
+  integrity sha512-qyXejbzv/aIo2yI3bZvWxYiWdWrZro+lESJ/2+bjAi9Ccy7RtTupbd1V1DR2Y8fem7qqqXHmfRAUvFAu7XpMPA==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
@@ -1402,12 +1402,12 @@ babel-plugin-react-require@3.0.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-react-require/-/babel-plugin-react-require-3.0.0.tgz#2e4e7b4496b93a654a1c80042276de4e4eeb20e3"
   integrity sha1-Lk57RJa5OmVKHIAEInbeTk7rIOM=
 
-babel-plugin-root-import@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-root-import/-/babel-plugin-root-import-6.4.0.tgz#ac8467117dac375568c0a8deb6bc454ad6f6a17f"
-  integrity sha512-bpPBW/MTnA2BKxCQi3myuW34gG+fVIDczLI7zhRYgJdnCs5k1axZoWMnpK9/U6LdAzyIq7mfI/c5YTmJsEuYDw==
+babel-plugin-root-import@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-root-import/-/babel-plugin-root-import-6.4.1.tgz#5c0dfe7588778b1933764c913fa3ed1c78150bf6"
+  integrity sha512-xwEwOwilsg4ZJr5I8bySvpwxCfF4lhYtqySktyTyAG8gcyDYTIDjjvds8P+IHb5gTbM/jiE9hU8e5ZQPQv8TrA==
   dependencies:
-    slash "^1.0.0"
+    slash "^3.0.0"
 
 babel-plugin-syntax-jsx@6.18.0:
   version "6.18.0"
@@ -2351,10 +2351,10 @@ eslint-module-utils@^2.4.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@^2.18.0:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.18.0.tgz#7a5ba8d32622fb35eb9c8db195c2090bd18a3678"
-  integrity sha512-PZpAEC4gj/6DEMMoU2Df01C5c50r7zdGIN52Yfi7CvvWaYssG7Jt5R9nFG5gmqodxNOz9vQS87xk6Izdtpdrig==
+eslint-plugin-import@^2.18.2:
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.18.2.tgz#02f1180b90b077b33d447a17a2326ceb400aceb6"
+  integrity sha512-5ohpsHAiUBRNaBWAF08izwUGlbrJoJJ+W9/TBwsGoR1MnlgfwMIKrFeSjWbt6moabiXW9xNvtFz+97KHRfI4HQ==
   dependencies:
     array-includes "^3.0.3"
     contains-path "^0.1.0"
@@ -2363,8 +2363,8 @@ eslint-plugin-import@^2.18.0:
     eslint-import-resolver-node "^0.3.2"
     eslint-module-utils "^2.4.0"
     has "^1.0.3"
-    lodash "^4.17.11"
     minimatch "^3.0.4"
+    object.values "^1.1.0"
     read-pkg-up "^2.0.0"
     resolve "^1.11.0"
 
@@ -2390,10 +2390,10 @@ eslint-plugin-prettier@^3.1.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react@^7.14.2:
-  version "7.14.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.14.2.tgz#94c193cc77a899ac0ecbb2766fbef88685b7ecc1"
-  integrity sha512-jZdnKe3ip7FQOdjxks9XPN0pjUKZYq48OggNMd16Sk+8VXx6JOvXmlElxROCgp7tiUsTsze3jd78s/9AFJP2mA==
+eslint-plugin-react@^7.14.3:
+  version "7.14.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.14.3.tgz#911030dd7e98ba49e1b2208599571846a66bdf13"
+  integrity sha512-EzdyyBWC4Uz2hPYBiEJrKCUi2Fn+BJ9B/pJQcjw5X+x/H2Nm59S4MJIvL4O5NEE0+WbnQwEBxWY03oUk+Bc3FA==
   dependencies:
     array-includes "^3.0.3"
     doctrine "^2.1.0"
@@ -5208,10 +5208,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-slash@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
-  integrity sha1-xB8vbDn8FtHNF61LXYlhFK5HDVU=
+slash@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
+  integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
 slice-ansi@1.0.0:
   version "1.0.0"

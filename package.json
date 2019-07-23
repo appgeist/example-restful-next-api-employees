@@ -10,9 +10,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@appgeist/exec": "^1.0.7",
-    "@appgeist/file-exists": "^1.0.6",
-    "@appgeist/restful-next-api": "^1.1.6",
+    "@appgeist/exec": "^1.0.8",
+    "@appgeist/file-exists": "^1.0.7",
+    "@appgeist/restful-next-api": "^1.1.7",
     "http-status-codes": "^1.3.2",
     "knex": "^0.19.0",
     "next": "^9.0.2",
@@ -24,14 +24,14 @@
     "yup": "^0.27.0"
   },
   "devDependencies": {
-    "@appgeist/eslint-config-react": "^1.0.4",
+    "@appgeist/eslint-config-react": "^1.0.5",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
     "@babel/plugin-proposal-optional-chaining": "^7.2.0",
     "@types/knex": "^0.16.1",
     "@types/node": "^12.6.8",
     "@types/pluralize": "^0.0.29",
     "@types/yup": "^0.26.22",
-    "babel-plugin-root-import": "^6.4.0",
+    "babel-plugin-root-import": "^6.4.1",
     "babel-plugin-transform-imports": "^2.0.0"
   }
 }
