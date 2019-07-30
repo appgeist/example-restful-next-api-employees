@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@appgeist/eslint-config-react@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@appgeist/eslint-config-react/-/eslint-config-react-1.0.5.tgz#70fa7101ac9c8cca20bb534966b6965297050330"
-  integrity sha512-5fFRpywOXdb9wE/9WAyLwShXdx4pUXZJMTuZcTmJzZgzBTx2cU4sRe8W8wpuy8TZq6W/Y+9nSloR5j3WQWlKRw==
+"@appgeist/eslint-config-react@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@appgeist/eslint-config-react/-/eslint-config-react-1.1.0.tgz#595734a28540579789b69c15785f43abace30baf"
+  integrity sha512-yhqi1bfJxRWtjXR1G3vT2F82mDT4sXQLTov0giwMB4Iw2r8HH+e6viNWQAet/w1zBLSqZERwes5CUj8Ytz0Lug==
   dependencies:
     babel-eslint "^10.0.2"
     eslint "^4.19.1"
@@ -3602,7 +3602,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-knex@*, knex@^0.19.0:
+knex@*:
   version "0.19.0"
   resolved "https://registry.yarnpkg.com/knex/-/knex-0.19.0.tgz#3c0383e70f01b35836079b8ef837fc6566c1aab3"
   integrity sha512-4acpjPAugogM5KmffJ6wG2e9nrmDq6Xg4tWk0pEHJKfAnqBefMPD0Si9oA2aYzg3Fsfey5FvZYXEDNBsNHeVkw==
@@ -3616,6 +3616,27 @@ knex@*, knex@^0.19.0:
     interpret "^1.2.0"
     liftoff "3.1.0"
     lodash "^4.17.14"
+    mkdirp "^0.5.1"
+    pg-connection-string "2.0.0"
+    tarn "^2.0.0"
+    tildify "2.0.0"
+    uuid "^3.3.2"
+    v8flags "^3.1.3"
+
+knex@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-0.19.1.tgz#a73b88697fe0d8ed1d7520d8ce390728444508f2"
+  integrity sha512-Y25eu5xMv8h/2/98YQqGMPzzo0AYs/HluST6BR8vkGfRyhme0A51jyCde4y4QInJo2GokrUzrXqlKDqqERg+nQ==
+  dependencies:
+    bluebird "^3.5.5"
+    colorette "1.0.8"
+    commander "^2.20.0"
+    debug "4.1.1"
+    getopts "2.2.4"
+    inherits "~2.0.4"
+    interpret "^1.2.0"
+    liftoff "3.1.0"
+    lodash "^4.17.15"
     mkdirp "^0.5.1"
     pg-connection-string "2.0.0"
     tarn "^2.0.0"
@@ -3704,6 +3725,11 @@ lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.4, lodash@^4.17.
   version "4.17.14"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
   integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
+
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
