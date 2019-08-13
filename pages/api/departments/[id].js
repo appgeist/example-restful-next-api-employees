@@ -8,7 +8,7 @@ export default methods({
   get: {
     querySchema: idSchema,
 
-    handler: ({ query: { id } }) =>
+    onRequest: ({ query: { id } }) =>
       Department.query()
         .findById(id)
         .throwIfNotFound()
@@ -18,7 +18,7 @@ export default methods({
     querySchema: idSchema,
     bodySchema: departmentSchema,
 
-    handler: ({ query: { id }, body }) =>
+    onRequest: ({ query: { id }, body }) =>
       Department.query()
         .updateAndFetchById(id, body)
         .throwIfNotFound()
@@ -27,7 +27,7 @@ export default methods({
   delete: {
     querySchema: idSchema,
 
-    handler: ({ query: { id } }) =>
+    onRequest: ({ query: { id } }) =>
       Department.query()
         .deleteById(id)
         .throwIfNotFound()

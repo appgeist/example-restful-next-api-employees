@@ -8,7 +8,7 @@ export default methods({
   get: {
     querySchema: idSchema,
 
-    handler: ({ query: { id } }) =>
+    onRequest: ({ query: { id } }) =>
       Employee.query()
         .findById(id)
         .throwIfNotFound()
@@ -18,7 +18,7 @@ export default methods({
     querySchema: idSchema,
     bodySchema: employeeSchema,
 
-    handler: ({ query: { id }, body }) =>
+    onRequest: ({ query: { id }, body }) =>
       Employee.query()
         .updateAndFetchById(id, body)
         .throwIfNotFound()
@@ -27,7 +27,7 @@ export default methods({
   delete: {
     querySchema: idSchema,
 
-    handler: ({ query: { id } }) =>
+    onRequest: ({ query: { id } }) =>
       Employee.query()
         .deleteById(id)
         .throwIfNotFound()

@@ -12,7 +12,6 @@ export default methods({
 
   post: {
     bodySchema: employeeSchema,
-
-    handler: ({ body }) => Employee.query().insert(body)
+    onRequest: ({ body }) => Employee.query().insert(body)
   }
 });

@@ -28,10 +28,10 @@
   resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.8.tgz#0ccbd8a092da0cb3dfe2b43765685f2607b38c4a"
   integrity sha512-Un54a0BRx+N1RZpde7VvN4ACu6PJ7gDvBcuy/f8FOBSzA8wBM9btZRU2SRnv7fNFDTF2Da8ek9TBLzSPTtZRqg==
 
-"@appgeist/restful-next-api@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.3.2.tgz#64839a33eaf8e384bf320cc14b7bc1dd4d493ccc"
-  integrity sha512-xDiHhs1ji9peVFTO0wTKN1E7Q7jESeLrEXQVJSn7JLF3g1w9Oj90LYisDjWLr0hCtaWqBaE/zVIiFCsRptfUQw==
+"@appgeist/restful-next-api@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.4.0.tgz#328f01c2f2817602a6c5017895ce57df4e56c31e"
+  integrity sha512-YNDaHmeKsuhV4zj+ygfn8AWo0e2wongE4Rr4ll6OdYNY5AbfAOH2zdJvbmpSPVwbR9eOOHvvzI5fnX5/E42Zsw==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
@@ -2404,6 +2404,11 @@ eslint-plugin-prettier@^3.1.0:
   integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-react-hooks@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz#6210b6d5a37205f0b92858f895a4e827020a7d04"
+  integrity sha512-iXTCFcOmlWvw4+TOE8CLWj6yX1GwzT0Y6cUfHHZqWnSk144VmVIRcVGtUAzrLES7C798lmvnt02C7rxaOX1HNA==
 
 eslint-plugin-react@^7.14.3:
   version "7.14.3"

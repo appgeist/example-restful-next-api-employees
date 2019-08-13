@@ -12,6 +12,6 @@ export default methods({
   post: {
     bodySchema: departmentSchema,
 
-    handler: ({ body }) => Department.query().insert(body)
+    onRequest: ({ body }) => Department.query().insert(body)
   }
 });
