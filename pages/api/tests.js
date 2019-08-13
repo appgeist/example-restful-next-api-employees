@@ -1,4 +1,5 @@
 import methods from '@appgeist/restful-next-api';
+import delay from 'delay';
 
 export default methods({
   beforeRequest: ({ method, url }) => {
@@ -20,9 +21,10 @@ export default methods({
   },
 
   patch: {
-    beforeRequest: ({ url }) => {
+    beforeRequest: async ({ url }) => {
       // eslint-disable-next-line no-console
-      console.log(`Preparing to handle PATCH request to ${url}`);
+      console.log(`Waiting 500ms before handling PATCH request to ${url}`);
+      await delay(500);
     },
     onRequest: () => {}
   },
