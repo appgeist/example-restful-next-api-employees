@@ -28,10 +28,10 @@
   resolved "https://registry.yarnpkg.com/@appgeist/file-exists/-/file-exists-1.0.8.tgz#0ccbd8a092da0cb3dfe2b43765685f2607b38c4a"
   integrity sha512-Un54a0BRx+N1RZpde7VvN4ACu6PJ7gDvBcuy/f8FOBSzA8wBM9btZRU2SRnv7fNFDTF2Da8ek9TBLzSPTtZRqg==
 
-"@appgeist/restful-next-api@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.4.1.tgz#3d2c8469e77203be8ddfb8cf9c90f12cf7b4c5a8"
-  integrity sha512-Z0S49BbhazHe/DvColZM0R2h2KF2OAkYv8qEZ1fajF8ttIZMx8TzMP5dl9Vw+lCB9ncW9S/AN/uH4z5yhmgctA==
+"@appgeist/restful-next-api@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@appgeist/restful-next-api/-/restful-next-api-1.5.0.tgz#9f6515abd6c7b41790e6063821b0c596ccdae841"
+  integrity sha512-M8g2VxBgtjQQMfkTfaFwif0Vvv3dzXaUsKyqJX68ToRNbq405Lb4afCy14+phof0SjnurLOa+K8diLVbSBhOVA==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
@@ -854,10 +854,10 @@
   dependencies:
     knex "*"
 
-"@types/node@^12.7.1":
-  version "12.7.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.1.tgz#3b5c3a26393c19b400844ac422bd0f631a94d69d"
-  integrity sha512-aK9jxMypeSrhiYofWWBf/T7O+KwaiAHzM4sveCdWPn71lzUSMimRnKzhXDKfKwV1kWoBo2P1aGgaIYGLf9/ljw==
+"@types/node@^12.7.2":
+  version "12.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.2.tgz#c4e63af5e8823ce9cc3f0b34f7b998c2171f0c44"
+  integrity sha512-dyYO+f6ihZEtNPDcWNR1fkoTDf3zAK3lAABDze3mz6POyIercH0lEUawUFXlG8xaQZmm1yEBON/4TsYv/laDYg==
 
 "@types/pluralize@^0.0.29":
   version "0.0.29"
