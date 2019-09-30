@@ -13,7 +13,7 @@ export default class BaseModel extends Model {
   }
 
   // eslint-disable-next-line import/no-dynamic-require
-  static getModelClass = className => require(`../${className}`).default;
+  static getModelClass = (className) => require(`../${className}`).default;
 
   static createNotFoundError = () => new ApiError(NOT_FOUND);
 }

@@ -1,18 +1,19 @@
 {
   "name": "@appgeist/example-restful-next-api-employees",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple example to demonstrate the usage of @appgeist/restful-next-api",
   "license": "ISC",
   "private": true,
   "scripts": {
     "dev": "next",
+    "lint": "eslint .",
     "build": "yarn version --patch && next build",
     "start": "next start"
   },
   "dependencies": {
-    "@appgeist/exec": "^1.1.1",
-    "@appgeist/file-exists": "^1.1.1",
-    "@appgeist/restful-next-api": "^1.5.2",
+    "@appgeist/exec": "^1.1.2",
+    "@appgeist/file-exists": "^1.1.2",
+    "@appgeist/restful-next-api": "^1.5.3",
     "delay": "^4.3.0",
     "http-status-codes": "^1.3.2",
     "knex": "^0.19.4",
@@ -25,7 +26,7 @@
     "yup": "^0.27.0"
   },
   "devDependencies": {
-    "@appgeist/eslint-config-react": "^1.3.1",
+    "@appgeist/eslint-config-react": "^1.4.1",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
     "@babel/plugin-proposal-optional-chaining": "^7.6.0",
     "@types/delay": "^3.1.0",
