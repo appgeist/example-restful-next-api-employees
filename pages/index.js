@@ -1,6 +1,6 @@
 const HomePage = () => (
   <div className="main">
-    <img className="next-logo" src={`/static/${process.env.ASSETS_PREFIX}/logo.svg`} alt="Next.js" />
+    <img className="next-logo" src={`/${process.env.ASSETS_PREFIX}/logo.svg`} alt="Next.js" />
     <hr className="hr" />
     <pre>process.env.ASSETS_PREFIX: {process.env.ASSETS_PREFIX}</pre>
     <pre>APIs available at /api.</pre>

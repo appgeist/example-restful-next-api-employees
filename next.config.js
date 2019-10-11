@@ -8,8 +8,8 @@ module.exports = (phase) => {
   ensureDatabase();
 
   if (phase === PHASE_PRODUCTION_BUILD) {
-    execSync(`rm -rf static/${VERSION}`);
-    execSync(`cp -R static/dev static/${VERSION}`);
+    execSync(`rm -rf public/${VERSION}`);
+    execSync(`cp -R public/dev public/${VERSION}`);
   }
 
   return {
