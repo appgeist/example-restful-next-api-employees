@@ -17,7 +17,7 @@
     "delay": "^4.3.0",
     "http-status-codes": "^1.4.0",
     "knex": "^0.20.8",
-    "next": "^9.2.1",
+    "next": "^9.3.2",
     "objection": "^2.1.2",
     "pluralize": "^8.0.0",
     "react": "^16.12.0",
